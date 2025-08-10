@@ -81,7 +81,7 @@ section {
 }
 section:hover{
     transform: scale(1.1);
-    box-shadow: -1px 3px 12px -4px red;
+    box-shadow: -1px 3px 12px -4px blue;
 }
 section:active{
     transform: scale(0.9);
