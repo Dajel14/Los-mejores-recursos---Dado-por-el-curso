@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /* background: #192532; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.textos {
+    color: #fff;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero {
+    background-image: linear-gradient(to top, rgba(94, 231, 222, 0.568) 0%, rgba(180, 144, 202, 0.589) 100%), url(imagenes/logan-weaver-y7Juo7Tltdw-unsplash.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 200px;
+    -webkit-box-shadow: -1px 3px 12px -4px rgba(255, 252, 255, 1);
+    -moz-box-shadow: -1px 3px 12px -4px rgba(255, 252, 255, 1);
+    box-shadow: -1px 3px 12px -4px rgba(255, 252, 255, 1);
+    transition: all 0.3s ease-in-out;
+    /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.hero:hover {
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 100px;
+    bottom: 0;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% 0 2% 0;
+}
+
+section {
+    margin-top: 2%;
+    height: 300px;
+    /* border: 1px solid #000; */
+    width: 300px;
+    -webkit-box-shadow: -1px 3px 12px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -1px 3px 12px -4px rgba(0, 0, 0, 1);
+    box-shadow: -1px 3px 12px -4px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+section:hover{
+    transform: scale(1.1);
+    box-shadow: -1px 3px 12px -4px red;
+}
+section:active{
+    transform: scale(0.9);
+}
+
+img {
+    width: 100%;
+    margin: 20px;
+}
